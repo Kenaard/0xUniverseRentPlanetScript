@@ -1,5 +1,5 @@
 1. Install node.js https://nodejs.org/en/
-2. When node.js will be installed open command line (Start->cmd) and paste this and hit enter
+2. After node.js installation finish start command line (Start->cmd) and paste this and hit enter
 
 	`npm install -g eth-cli`
    
