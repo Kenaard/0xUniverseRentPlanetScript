@@ -1,6 +1,6 @@
 param($key, $gasPrice)
 
-$json = Get-Content -Raw -Path d:\Movies\planets.json | ConvertFrom-Json
+$json = Get-Content -Raw -Path planets.json | ConvertFrom-Json
 $data = '0x99fbf3a200000000000000000000000000000000000000000000000000000000000#####000000000000000000000000000000000000000000000000000009184e72a000'
 
 if ([string]::IsNullOrEmpty($gasPrice)) {
