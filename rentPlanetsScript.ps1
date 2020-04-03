@@ -4,7 +4,7 @@ $json = Get-Content -Raw -Path planets.json | ConvertFrom-Json
 $data = '0x99fbf3a200000000000000000000000000000000000000000000000000000000000#####000000000000000000000000000000000000000000000000000009184e72a000'
 
 if ([string]::IsNullOrEmpty($gasPrice)) {
-	$gasPrice = 1
+	$gasPrice = "1"
 }
 
 $gas = $gasPrice.PadRight(10, "0")
